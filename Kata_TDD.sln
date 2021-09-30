@@ -14,6 +14,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArabToRoman.Test", "..\Arab
 		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981} = {89087B1C-668B-4EC4-9AE6-4BCCE9C89981}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactors", "PrimeFactors\PrimeFactors.csproj", "{0CC1A043-B52F-46BE-9854-C58E448F4DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactors.Test", "PrimeFactors.Test\PrimeFactors.Test.csproj", "{B0DD099A-5532-49A0-8A1C-54D9EBC24749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,14 @@ Global
 		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC1A043-B52F-46BE-9854-C58E448F4DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC1A043-B52F-46BE-9854-C58E448F4DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC1A043-B52F-46BE-9854-C58E448F4DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC1A043-B52F-46BE-9854-C58E448F4DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD099A-5532-49A0-8A1C-54D9EBC24749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD099A-5532-49A0-8A1C-54D9EBC24749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD099A-5532-49A0-8A1C-54D9EBC24749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD099A-5532-49A0-8A1C-54D9EBC24749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
