@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_TDD.Bowling", "Kata_TDD.Bowling\Kata_TDD.Bowling.csproj", "{842ACDBC-E0EA-45EA-B6E1-A2CE81D109FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bowling", "Kata_TDD.Bowling\Bowling.csproj", "{2FE42F0F-14A4-43FF-9CA8-91FA24CEA64F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_TDD.Bowling.Test", "Kata_TDD.Bowling.Test\Kata_TDD.Bowling.Test.csproj", "{FF92B16E-B9A7-4AE1-84AE-CA4195F48FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bowling.Test", "Kata_TDD.Bowling.Test\Bowling.Test.csproj", "{ACD0CB46-BF95-4216-96C2-807B0E382861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArabToRoman", "..\ArabToRomanKata\ArabToRomanKata\ArabToRoman.csproj", "{89087B1C-668B-4EC4-9AE6-4BCCE9C89981}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArabToRoman.Test", "..\ArabToRomanKata\ArabToRomanKata.Test\ArabToRoman.Test.csproj", "{55E340EF-CC00-41F9-8ECD-8467FB441B44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981} = {89087B1C-668B-4EC4-9AE6-4BCCE9C89981}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +20,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{842ACDBC-E0EA-45EA-B6E1-A2CE81D109FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{842ACDBC-E0EA-45EA-B6E1-A2CE81D109FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{842ACDBC-E0EA-45EA-B6E1-A2CE81D109FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{842ACDBC-E0EA-45EA-B6E1-A2CE81D109FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF92B16E-B9A7-4AE1-84AE-CA4195F48FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF92B16E-B9A7-4AE1-84AE-CA4195F48FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF92B16E-B9A7-4AE1-84AE-CA4195F48FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF92B16E-B9A7-4AE1-84AE-CA4195F48FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE42F0F-14A4-43FF-9CA8-91FA24CEA64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE42F0F-14A4-43FF-9CA8-91FA24CEA64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE42F0F-14A4-43FF-9CA8-91FA24CEA64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE42F0F-14A4-43FF-9CA8-91FA24CEA64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD0CB46-BF95-4216-96C2-807B0E382861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD0CB46-BF95-4216-96C2-807B0E382861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD0CB46-BF95-4216-96C2-807B0E382861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD0CB46-BF95-4216-96C2-807B0E382861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89087B1C-668B-4EC4-9AE6-4BCCE9C89981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E340EF-CC00-41F9-8ECD-8467FB441B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
